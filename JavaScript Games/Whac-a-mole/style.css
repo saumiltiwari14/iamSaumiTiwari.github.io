@@ -1,0 +1,29 @@
+.grid{
+    width: 612px;
+    height: 612px;
+    margin-top: 20%;
+    margin:0 auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    height:200px;
+    width:200px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.mole{
+    background-image:url('mole.png');
+    background-size:cover;
+}
+
+h2{
+    font-family:monospace;
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
